@@ -35,6 +35,9 @@ nav ul li a{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+#mainimg img{
+    border-radius: 10px;
+}
 #content p{
     color: white;
     font-size: 2.5em;
