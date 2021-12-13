@@ -149,3 +149,20 @@ button p{
     color: white;
     float: left;
 }
+form input{
+    display: table;
+    margin: 10px;
+}
+form div{
+    display: table-row;
+}
+label{
+    display: table-cell;
+    text-align: right;
+}
+input{
+    display: table-cell; 
+}
+fieldset{
+    margin: 15px;
+}
