@@ -47,7 +47,7 @@ nav ul li a{
 }
 #qoute{
     font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 110px;
 }
 footer{
@@ -66,6 +66,7 @@ footer ul li{
     list-style: none;
 }
 footer ul li img{
-    width: 3vw;
+    width: 2.5vw;
     border-radius: 4.2vw;
+    margin: 0%;
 }

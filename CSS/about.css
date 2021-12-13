@@ -1,6 +1,7 @@
 header{
-    background-color: 95BCCC;
+    
     height: 10vw;
+    border-radius: 5px;
 }
 #header{
     display: flex;
@@ -21,11 +22,12 @@ nav ul{
 nav ul li{
     margin: 20px;
     list-style-type: none;
+    margin-top: 4.5%;
     
 }
 nav ul li a{
     text-decoration: none;
-    color: 164958;
+    color: 23687D;
     font-weight: bold;
 }
 #cards{
@@ -36,23 +38,35 @@ nav ul li a{
     
 }
 #qoute{
-    font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 110px;
     text-align: center;
-    color: 164958;
+    color: black;
+}
+p{
+    text-align: center;
+    color: 23687D;
+    font-size: 1.2em;
+    
 }
 #cards div{
     margin-top: 50px;
     height: 400px;
-    width:150px;
+    width:260px;
     border:black 2px solid;
     border-radius: 5px;
-    box-shadow: rgb(172, 171, 171) 3px 3px;
+    box-shadow: rgb(124, 124, 124) 4px 4px;
+    
+}
+#cards div:hover{
+    transform: scale(1.1);
+    transition-duration: 400ms;
+
 }
 div img{
     width:100%;
-    height: 50%;
+    height: 40%;
 }
 footer{
     margin-top: 50px;
@@ -69,8 +83,23 @@ footer{
 }
 footer ul li{
     list-style: none;
+    vertical-align: 2;
 }
 footer ul li img{
-    width: 3vw;
+    width: 2.5vw;
     border-radius: 4.2vw;
+}
+#acadamics{
+    display: flex;
+    flex-direction: column;
+
+}
+#acadamics div{
+    border:solid black 2px;
+    box-shadow: rgb(139, 139, 139) 2px 2px;
+
+}
+#acadamics div img{
+    width: 20vw;
+    height: 15vw;
 }
