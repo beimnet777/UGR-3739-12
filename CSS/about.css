@@ -2,6 +2,7 @@ header{
     
     height: 10vw;
     border-radius: 5px;
+    background-color: 95BCCC;
 }
 #header{
     display: flex;
@@ -89,6 +90,10 @@ footer ul li img{
     width: 2.5vw;
     border-radius: 4.2vw;
 }
+
+
+
+
 #acadamics{
     display: flex;
     flex-direction: column;
@@ -103,5 +108,44 @@ footer ul li img{
 #acadamics div img{
     width: 20vw;
     height: 15vw;
+    float: left;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    
+}
+#img{ 
+    width: 24vw;
+    height:22vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    max-width: 400px;
+    max-height: 300px;
+}
+#main #description{
+    width:70%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+button{
+    border: black 2px solid;
+    margin: auto;
+    background-color: 23687D;
+}
+button img{
+    float: right;
+    border-radius: 10px;
+    width: 20px;
+}
+button p{
+    margin: auto;
+    color: white;
     float: left;
 }
