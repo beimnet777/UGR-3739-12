@@ -47,11 +47,11 @@ nav ul li a{
 }
 #qoute{
     font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 110px;
 }
 footer{
-    margin-top: 50px;
+    margin-top: 15vw;
 }
 #footerdiv{
     display: flex;
@@ -62,11 +62,24 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+footer ul{
+    display: table;
+}
 footer ul li{
     list-style: none;
+    display:table-row;
+}
+footer ul li a{
+    text-decoration: none;
+    text-align: left;
+    line-break:auto;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 8px;
+    color: white;
+
 }
 footer ul li img{
     width: 2.5vw;
     border-radius: 4.2vw;
-    margin: 0%;
 }

@@ -2,7 +2,10 @@ header{
     
     height: 10vw;
     border-radius: 5px;
-    background-color: 95BCCC;
+   
+}
+body{
+    background: linear-gradient(242.82deg, #FFFFFF 1.04%, #E1E1E1 22.05%);
 }
 #header{
     display: flex;
@@ -82,9 +85,22 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+footer ul{
+    display: table;
+}
 footer ul li{
     list-style: none;
-    vertical-align: 2;
+    display:table-row;
+}
+footer ul li a{
+    text-decoration: none;
+    text-align: left;
+    line-break:auto;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 8px;
+    color: white;
+
 }
 footer ul li img{
     width: 2.5vw;
@@ -118,7 +134,7 @@ footer ul li img{
     
 }
 #img{ 
-    width: 24vw;
+    width: 32vw;
     height:22vw;
     margin-left: auto;
     margin-right: auto;
