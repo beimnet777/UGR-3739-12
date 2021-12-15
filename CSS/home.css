@@ -35,16 +35,34 @@ nav ul li a{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+#mainimg{
+    
+    overflow: hidden;
+    width: 20vw;}
+#anime{
+    display: flex;
+    animation: animatepic 8s infinite;
+}
 #mainimg img{
     border-radius: 10px;
+    width: 20vw;
+    margin-right: 20vw;
+    
 }
 #content p{
     color: white;
     font-size: 2.5em;
+    height: fit-content;
+    
 }
 #content{
     width: 25%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
+    
 #qoute{
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
@@ -83,3 +101,154 @@ footer ul li img{
     width: 2.5vw;
     border-radius: 4.2vw;
 }
+
+
+
+#cont {
+    width: 350px;
+    font-size: 40px;
+    margin: 0px;
+    margin-top: -15px;
+    overflow: hidden;
+    height: 47px;
+
+  }
+
+  #an {
+    margin: 0px;
+    animation: animate 8s infinite;
+    
+  }
+  #an div{
+      margin-left: auto;
+      margin-right: auto;
+  }
+ 
+  #cont1 {
+    width: 300px;
+    background-color: aqua;
+    margin-top: 47px;
+    margin-bottom: 47px;
+    border-radius: 10px;
+    height: 47px;
+    padding-left: auto;
+  }
+
+  #cont2 {
+    width: 300px;
+    background-color: blue;
+    margin-top: 47px;
+    margin-bottom: 47px;
+    border-radius: 10px;
+    height: 47px;
+
+  }
+
+  #cont3 {
+    width: 300px;
+    background-color: blueviolet;
+    margin-top: 47px;
+    margin-bottom: 47px;
+    border-radius: 10px;
+    height: 47px;
+  }
+
+  #cont4 {
+    width: 300px;
+    background-color: brown;
+    margin-top: 47px;
+    margin-bottom: 47px;
+    border-radius: 10px;
+    height: 47px;
+  }
+
+  @keyframes animate {
+    0% {
+      margin-top: -47px;
+    }
+
+    18% {
+      margin-top: -47px;
+    }
+
+    25% {
+      margin-top: -141px;
+    }
+
+    43% {
+      margin-top: -141px;
+    }
+
+    50% {
+      margin-top: -235px;
+    }
+
+    68% {
+      margin-top: -235px;
+    }
+
+    75% {
+      margin-top: -329px;
+    }
+
+    93% {
+      margin-top: -329px;
+    }
+
+    93.001% {
+      margin-top: 0px;
+    }
+
+    99.99% {
+      margin-top: -47px;
+    }
+
+    100% {
+      margin-top: -47px;
+    }
+  }
+  @keyframes animatepic {
+    0% {
+      margin-left: 0vw;
+    }
+
+    18% {
+        margin-left: 0vw;
+    }
+
+    25% {
+        margin-left: -40vw;
+    }
+
+    43% {
+        margin-left: -40vw;
+    }
+
+    50% {
+        margin-left: -80vw;
+    }
+
+    68% {
+        margin-left: -80vw;
+    }
+
+    75% {
+        margin-left: -120vw;
+    }
+
+    93% {
+        margin-left: -120vw;
+    }
+
+    93.000001% {
+        margin-left: -20vw;
+    }
+
+    99.99% {
+        margin-left: 0vw;
+    }
+
+    100% {
+        margin-left: 0vw;
+    }
+  }
