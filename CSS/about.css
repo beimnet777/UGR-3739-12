@@ -182,3 +182,22 @@ input{
 fieldset{
     margin: 15px;
 }
+#storycont{
+    display: flex;
+    justify-content: space-evenly;
+}
+section section{
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: rgb(151, 151, 151) 4px 4px;
+    
+    
+}
+#storycont #para{
+    width: 45%;
+}
+#line{
+    border: black 1px solid;
+    box-shadow: none;
+}
