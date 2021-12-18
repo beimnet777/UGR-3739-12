@@ -224,6 +224,7 @@ button{
     transition: 300ms;
     padding: 5px;
     font-size: 1em;
+    box-shadow: 3px 2px 2px 2px gray;
 }
 button:hover{
     transform: scale(1.1);
