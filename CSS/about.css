@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 header{
     
     height: 10vw;
@@ -34,11 +37,14 @@ nav ul li a{
     text-decoration: none;
     color: 23687D;
     font-weight: bold;
+    padding: 5px;
 }
 nav ul li a:hover{
     border-radius: 5px;
-    background:#23687C,0.4;
-    box-shadow:0px 0px 0px #000000, 0px 3px 4px -1px #6bfff6;
+    background:#23687C;
+    color: white;
+    transition: 200ms;
+    
   }
 #cards{
     
@@ -120,8 +126,11 @@ div img{
     height:100%;
 }
 footer{
+    margin: 0px;
     margin-top: 50px;
     background-color: 95BCCC;
+    border-radius: 10px;
+    padding: 5px;
 }
 #footerdiv{
     display: flex;
@@ -160,6 +169,7 @@ footer ul li img{
 #acadamics{
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 #acadamics div{
@@ -167,11 +177,19 @@ footer ul li img{
     box-shadow: rgb(139, 139, 139) 2px 2px;
     margin:10px;
     border-radius: 5px;
+    width: 70%;
+    display: flex;
 }
-#acadamics div img{
+#acadamics div:nth-child(odd) img{
+    width: 20vw;
+    height: auto;
+    min-height: 100%;
+    float: left;
+}
+#acadamics div:nth-child(even) img{
     width: 20vw;
     height: 15vw;
-    float: left;
+    float: right;
 }
 
 
@@ -189,6 +207,7 @@ footer ul li img{
     border-radius: 5px;
     max-width: 400px;
     max-height: 300px;
+    animation: pop ease-in-out 800ms;
 }
 #main #description{
     width:70%;
@@ -198,23 +217,41 @@ footer ul li img{
     margin-bottom: 40px;
 }
 button{
-    border: black 2px solid;
+    border: black 0.5px solid;
     margin: auto;
     background-color: 23687D;
+    border-radius: 4px;
+    transition: 300ms;
+    padding: 5px;
+    font-size: 1em;
 }
-button img{
-    float: right;
-    border-radius: 10px;
-    width: 20px;
+button:hover{
+    transform: scale(1.1);
+    
 }
+
 button p{
     margin: auto;
     color: white;
-    float: left;
+    padding: 5px;
 }
-form input{
+#form_p{
+    margin: 40px auto;
+}
+form{
+    width: 80%;
+    margin: auto;
+    line-height: 3em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+form input,textarea{
     display: table;
     margin: 10px;
+    border: solid gray 2px;
+    border-radius: 3px;
+    box-shadow: 2px 0px 1.5px 1.5px gray ;
 }
 form div{
     display: table-row;
@@ -228,6 +265,9 @@ input{
 }
 fieldset{
     margin: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 3px 0px 2px 2px gray ;
 }
 #storycont{
     display: flex;
@@ -237,10 +277,12 @@ section section{
     border: 2px solid black;
     margin: 5px;
     border-radius: 10px;
-    box-shadow: rgb(151, 151, 151) 4px 4px;
+    box-shadow: rgb(151, 151, 151) 4px 4px;}
+section img{
+    animation:slidedown 2s ease-out;
+}   
     
-    
-}
+
 #storycont #para{
     width: 45%;
     animation: slideup 2s ease-out;
@@ -287,6 +329,28 @@ section section{
     }
 
 }
+@keyframes slidedown{
+    0%{
+        margin-top: -200px;
+        opacity: 0;
+    }
+    
+    100%{
+        margin-top: 0.5px;
+        opacity: 1;
+    }
+
+}
+@keyframes pop{
+    0%{
+       transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
 
 
 
