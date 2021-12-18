@@ -29,6 +29,14 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
+    
+}
+nav ul li a:hover{
+  border-radius: 5px;
+  background:#23687C,0.4;
+  box-shadow:0px 0px 0px #000000, 0px 3px 4px -1px #6bfff6;
+  
+  
 }
 #main{
     display: flex;
@@ -126,7 +134,7 @@ footer ul li img{
  
   #cont1 {
     width: 300px;
-    background-color: aqua;
+    background-color: rgb(3, 170, 170);
     margin-top: 47px;
     margin-bottom: 47px;
     border-radius: 10px;
@@ -136,7 +144,7 @@ footer ul li img{
 
   #cont2 {
     width: 300px;
-    background-color: blue;
+    background-color: rgb(26, 26, 128);
     margin-top: 47px;
     margin-bottom: 47px;
     border-radius: 10px;
@@ -155,7 +163,7 @@ footer ul li img{
 
   #cont4 {
     width: 300px;
-    background-color: brown;
+    background-color: rgb(17, 177, 38);
     margin-top: 47px;
     margin-bottom: 47px;
     border-radius: 10px;
