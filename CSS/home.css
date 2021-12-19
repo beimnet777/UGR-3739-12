@@ -57,9 +57,14 @@ nav ul li a:hover{
 }
 #content p{
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
     height: fit-content;
     
+}
+span{
+  font-size:170%;
+  font-family:cool;
+  
 }
 #content{
     width: 25%;
@@ -70,7 +75,7 @@ nav ul li a:hover{
 }
     
 #qoute{
-    font-size: larger;
+    font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 110px;
 }
@@ -257,4 +262,9 @@ footer ul li img{
     100% {
         margin-left: 0vw;
     }
+  }
+ 
+  @font-face {
+    font-family: cool;
+    src: url(../CSS/RedPixel.otf);
   }
