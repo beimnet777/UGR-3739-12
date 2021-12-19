@@ -36,6 +36,27 @@ nav ul li a:hover{
   background:#23687C,0.4;
   box-shadow:0px 0px 0px #000000, 0px 3px 4px -1px #6bfff6;
 }
+button{
+  border:1px solid white;
+  background-color: #23687C;
+  border-radius: 3px;
+  color: inherit;
+  
+}
+button:hover{
+  background-color: white;
+  color: #23687C;
+}
+#home{
+  border-radius: 5px; 
+  background:#23687C,0.4; 
+  box-shadow:0px 0px 0px #000000, 0px 3px 4px -1px #6bfff6;
+}
+nav ul li a:hover ~ #home{
+  border-radius: 5px;
+  background:none;
+  box-shadow:none;
+}
 #main{
     display: flex;
     justify-content: space-evenly;

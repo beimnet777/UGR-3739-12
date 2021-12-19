@@ -22,6 +22,9 @@ body{
     border-radius: 150px;
     width: 100%;
 }
+a{
+    text-decoration: none;
+}
 nav ul{
     display: flex;
     justify-content: flex-end;
@@ -44,11 +47,10 @@ nav ul li a{
 nav ul li a:hover{
     border-radius: 5px;
     background:#23687C;
-    color: white;
-    
-    
-    
+    color: white; 
   }
+
+
 #cards{
     
     display: flex;
@@ -95,34 +97,34 @@ p{
     transform: rotateY(90deg);   
 }
 #a11{
-    animation: flip-back 2s;
+    animation: flip-back 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 1.5s;
+    animation-delay: .7s;
 }
 #a22{
-    animation: flip-back 2s;
+    animation: flip-back 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 3.5s;
+    animation-delay: 2.2s;
 }
 #a33{
-    animation: flip-back 2s;
+    animation: flip-back 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 5.5s;
+    animation-delay: 3.7s;
 }
 #a1{
-    animation: flip 2s;
+    animation: flip 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 1.5s;
+    animation-delay: .7s;
 }
 #a2{
-    animation: flip 2s;
+    animation: flip 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 3.5s;
+    animation-delay: 2.2s;
 }
 #a3{
-    animation: flip 2s;
+    animation: flip 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 5.5s;
+    animation-delay: 3.7s;
 }
     
 
@@ -247,9 +249,22 @@ button{
     box-shadow: 3px 2px 2px 2px gray;
 }
 button:hover{
-    transform: scale(1.1);
-    
+    transform: scale(1.1);   
 }
+nav ul li button{
+    border:.5px solid white;
+    background-color: #000000;
+    margin-top: -5px;
+    color: white;
+    box-shadow: none;
+    font-weight: bold;
+    padding: 5px;
+    
+  }
+  button:hover{
+    background-color: white;
+    color: #23687C;
+  }
 
 button p{
     margin: auto;

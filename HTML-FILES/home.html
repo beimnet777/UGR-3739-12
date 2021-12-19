@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/home.css" >
+    <link   rel="stylesheet" href="../CSS/home.css" >
+    <link   rel="stylesheet" href="" >
     <title>HOME</title>
+    
 </head>
 
 <body>
@@ -15,11 +17,12 @@
         </div>
         </header>
         <nav><ul>
-            <li><a href="home.html" style="border-radius: 5px; background:#23687C,0.4; box-shadow:0px 0px 0px #000000, 0px 3px 4px -1px #6bfff6;">HOME</a></li>
+            <li><a id="home" href="home.html" >HOME</a></li>
             <li><a href="recent.html">SELECTED WORK</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="download.html">CV</a></li>
             <li><a href="contact.html">CONTACT</a></li>
+            <li><button id="mode" onclick="darkMode()">dark</button></li>
         </ul></nav>
     
     <!--the main content-->
@@ -65,7 +68,10 @@
         </ul>
     </div>
     </footer>
+    
 
 </body>
+<script src="../javascript/darkmode.js"></script>
+
 
 </html>

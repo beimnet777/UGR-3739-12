@@ -1,0 +1,18 @@
+
+body{
+  background: linear-gradient(222.18deg, #080E10 69.26%, rgba(0, 0, 0, 0.26) 126.22%);
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+button{
+  border:1px solid #23687C;
+  background-color: black;
+  border-radius: 3px;
+  color: inherit;
+  
+}
+button:hover{
+  background-color: white;
+  color: #080E10;
+}

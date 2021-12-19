@@ -1,0 +1,82 @@
+body{
+  background: linear-gradient(222.18deg, #080E10 69.26%, rgba(0, 0, 0, 0.26) 126.22%);
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+button{
+  border:1px solid #23687C;
+  background-color: black;
+  border-radius: 3px;
+  color: inherit;
+  
+}
+button:hover{
+  background-color: white;
+  color: #080E10;
+}
+footer{
+  background: linear-gradient(270.09deg, rgba(255, 255, 255, 0.54) -0.52%, rgba(186, 224, 246, 0.342721) -0.51%, rgba(65, 171, 231, 0) 101.04%);;
+}
+nav ul li a:hover{
+  background:white;
+  color: black; 
+}
+#qoute{
+  color:white;
+}
+p{
+  color: white; 
+  font-size: 1.09em;
+}
+#cards div{
+  border:black 2px solid;
+  box-shadow: rgb(255, 255, 255) 4px 4px;
+  }
+  #acadamics div{
+    border:solid black 2px;
+    box-shadow: rgb(255, 255, 255) 2px 2px;
+}
+#acadamics div :first-child{
+  background-color: rgb(18, 84, 87);
+}
+button{
+  border: black 0.5px solid;
+  box-shadow: 3px 2px 2px 2px rgb(255, 255, 255);
+}
+nav ul li button{
+  border:.5px solid rgb(48, 47, 47);
+  background-color: #fffefe;
+  color: rgb(0, 0, 0);
+}
+button:hover{
+  background-color: white;
+  color:black;
+}
+button:hover+p{
+  color:black;}
+button p{
+  color: white;
+}
+form input,textarea{
+  border: solid rgb(150, 148, 148) 2px;
+  box-shadow: 2px 0px 1.5px 1.5px rgb(224, 224, 224) ;
+
+}
+label{
+  color:rgb(242, 246, 247);
+}
+fieldset{
+  box-shadow: 3px 0px 2px 2px rgb(180, 180, 180) ;
+}
+section section{
+  border: 2px solid rgb(100, 100, 100);
+  box-shadow: rgb(211, 210, 210) 4px 4px;}
+#line{
+    border: rgb(241, 238, 238) 1px solid;
+
+}
+nav ul li a{
+
+  color: white;}
+ 
