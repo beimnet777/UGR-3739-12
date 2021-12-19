@@ -38,12 +38,15 @@ nav ul li a{
     color: 23687D;
     font-weight: bold;
     padding: 5px;
+     
+     
 }
 nav ul li a:hover{
     border-radius: 5px;
     background:#23687C;
     color: white;
-    transition: 200ms;
+    
+    
     
   }
 #cards{
@@ -60,6 +63,9 @@ nav ul li a:hover{
     margin-top: 30px;
     text-align: center;
     color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 p{
     text-align: center;
@@ -91,30 +97,32 @@ p{
 #a11{
     animation: flip-back 2s;
     animation-fill-mode: forwards;
+    animation-delay: 1.5s;
 }
 #a22{
     animation: flip-back 2s;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 3.5s;
 }
 #a33{
     animation: flip-back 2s;
     animation-fill-mode: forwards;
-    animation-delay: 4s;
+    animation-delay: 5.5s;
 }
 #a1{
     animation: flip 2s;
     animation-fill-mode: forwards;
+    animation-delay: 1.5s;
 }
 #a2{
     animation: flip 2s;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 3.5s;
 }
 #a3{
     animation: flip 2s;
     animation-fill-mode: forwards;
-    animation-delay: 4s;
+    animation-delay: 5.5s;
 }
     
 
@@ -179,19 +187,31 @@ footer ul li img{
     border-radius: 5px;
     width: 70%;
     display: flex;
-}
-#acadamics div:nth-child(odd) img{
-    width: 20vw;
-    height: auto;
-    min-height: 100%;
-    float: left;
-}
-#acadamics div:nth-child(even) img{
-    width: 20vw;
-    height: 15vw;
-    float: right;
+    margin: 15px;
 }
 
+#acadamics div:first-child{
+    margin-top: 60px;
+
+}
+#acadamics>div:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+#acadamics div :first-child{
+    width: 100%;
+    height: inherit;
+    margin: 0px;
+    min-height: 100%;
+    float: right;
+    background-color: rgb(58, 232, 238);
+    border: 0px;
+    border-radius: 1px;
+    box-shadow: none;
+}
+#acadamics div p{
+    padding: 5px;
+}
 
 #main{
     display: flex;
@@ -238,6 +258,8 @@ button p{
 }
 #form_p{
     margin: 40px auto;
+    width:80%;
+    font-size: 1.4em;
 }
 form{
     width: 80%;
@@ -246,6 +268,7 @@ form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
 form input,textarea{
     display: table;
@@ -253,6 +276,7 @@ form input,textarea{
     border: solid gray 2px;
     border-radius: 3px;
     box-shadow: 2px 0px 1.5px 1.5px gray ;
+ 
 }
 form div{
     display: table-row;
@@ -260,6 +284,9 @@ form div{
 label{
     display: table-cell;
     text-align: right;
+    color:rgb(16, 89, 92);
+    font-size: 1.1em;
+    font-weight: 800;
 }
 input{
     display: table-cell; 
@@ -267,8 +294,10 @@ input{
 fieldset{
     margin: 15px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 4.5em;
     box-shadow: 3px 0px 2px 2px gray ;
+    animation: shadow infinite 4s ease-in-out;
+ 
 }
 #storycont{
     display: flex;
@@ -352,7 +381,18 @@ section img{
 
 }
 
-
+@keyframes shadow {
+    0%{
+        box-shadow:2px 0px 1.5px 1.5px gray ;
+    }
+    50%{
+        box-shadow:2px 0px 6px 6px rgb(13, 112, 107) ;
+    }
+    100%{
+        box-shadow:2px 0px 1.5px 1.5px gray ;
+    }
+    
+}
 
 
 
