@@ -47,14 +47,27 @@ li button{
 }
 button{
   border:1px solid white;
-  background-color: #23687C;
+  background-color: rgb(0,0,0,0);
   border-radius: 3px;
   color: inherit;
 }
 button:hover{
   box-shadow:0px 0px 0px #000000, 0px 3px 4px -1px #6bfff6;
 }
-
+.burger{
+  height: 5px;
+  width: 30px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 5px;
+  display:none;
+}
+#burger{
+  padding:inherit;
+  position:absolute;
+  top:0px;
+  right: 0px;
+}
 
 #home{
   border-radius: 5px; 
@@ -83,7 +96,7 @@ button:hover{
 }
 #content p{
     color: white;
-    font-size: 2em;
+    font-size: 2rem;
     height: fit-content;
     
 }
@@ -199,6 +212,81 @@ footer ul li img{
     height: 47px;
   }
 
+@media only screen and (max-width: 830px){
+   body{
+     margin: 0px;}
+     .burger{
+       display: block;
+     }
+   nav{
+      width: 30%;
+      background-color:rgb(0,0,0,0.5);
+      position: absolute;
+      top:0px;
+      right:0px;
+      border-radius: 10px;}
+    nav ul{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 0px;
+  }
+  nav ul li{
+    margin: 10px;
+  } 
+   header{
+     position: absolute;
+     top:0px;
+   }
+   #content p{
+    font-size: 1.5rem;
+}
+#qoute{
+  font-size: 1.2em;
+}
+   .toggle{
+     display: none;
+   }
+  } 
+  @media only screen and (max-width: 715px){
+    nav ul li a{
+      font-size:2.0vw;
+      font-weight:700;
+    }
+    #selectedwork{
+      font-weight: 400;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   @keyframes animate {
     0% {
       margin-top: -47px;
