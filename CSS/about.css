@@ -195,8 +195,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-
+    width: 80vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -214,7 +213,7 @@ footer ul li a {
     text-decoration: none;
     text-align: left;
     line-break: auto;
-    display: table-cell;
+    display: table-row;
     vertical-align: middle;
     padding-left: 8px;
     color: white;
@@ -224,6 +223,8 @@ footer ul li a {
 footer ul li img {
     width: 2.5vw;
     border-radius: 4.2vw;
+    min-height: 20px;
+    min-width:20px;
 }
 
 
@@ -387,6 +388,7 @@ align-self: center;
 #storycont {
     display: flex;
     justify-content: space-evenly;
+    flex: 1 1 auto;
 }
 
 section section {
@@ -397,13 +399,16 @@ section section {
 }
 
 section img {
+    width: 30%;
     animation: slidedown 2s ease-out;
+    max-height: 500px;
 }
 
 
 #storycont #para {
-    width: 45%;
+    width: 51%;
     animation: slideup 2s ease-out;
+    text-align: left;
 }
 
 #line {
@@ -493,6 +498,9 @@ section img {
 }
 
 @media only screen and (max-width: 830px) {
+    html{
+        font-size: 13px;
+    }
     body {
         margin: 0px;
     }
@@ -533,9 +541,15 @@ section img {
     .toggle {
         display: none;
     }
+    section img {
+        max-height: 420px;
+    }
 }
 
 @media only screen and (max-width: 715px) {
+    html{
+        font-size: 12px;
+    }
     nav ul li a {
         font-size: 2.0vw;
         font-weight: 700;
@@ -544,4 +558,27 @@ section img {
     #selectedwork {
         font-weight: 400;
     }
+    section img {
+        max-height: 320px;
+    }
+    #storycont{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #storycont #para{
+        width: 95%;
+    }
+    footer p{
+        display: none;
+    }
+}
+@media only screen and (max-width: 415px){
+    html{
+
+        font-size: 10px;
+    }
+    section img {
+        max-height: 220px;
+    }
+    
 }
