@@ -81,3 +81,56 @@ nav ul li a{
     border: none;
   }
  
+  @media only screen and (max-width: 830px) {
+    body {
+        margin: 0px;
+    }
+
+    .burger {
+        display: block;
+        border: 1px white solid;
+    }
+
+    nav {
+        width: 28%;
+        background-color: rgb(0, 0, 0,0.1);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border-radius: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0px;
+    }
+
+    nav ul li {
+        margin: 10px;
+    }
+
+    #content p {
+        font-size: 1.5rem;
+    }
+
+    #qoute {
+        font-size: 1.2em;
+    }
+
+    .toggle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    nav ul li a {
+        font-size: 2.0vw;
+        font-weight: 700;
+    }
+
+    #selectedwork {
+        font-weight: 400;
+    }
+}
