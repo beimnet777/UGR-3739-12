@@ -73,6 +73,7 @@ nav ul li a:hover {
     position: absolute;
     top: 0px;
     right: 0px;
+    z-index: 100000;
 }
 
 #cards {
@@ -357,7 +358,6 @@ form input, textarea {
     border: solid gray 2px;
     border-radius: 3px;
     box-shadow: 2px 0px 1.5px 1.5px gray;
-
 }
 
 form div {

@@ -9,8 +9,9 @@ footer{
   background: linear-gradient(270.09deg, rgba(255, 255, 255, 0.54) -0.52%, rgba(186, 224, 246, 0.342721) -0.51%, rgba(65, 171, 231, 0) 101.04%);;
 }
 nav ul li a:hover{
-  background:white;
-  color: black; 
+    border-radius: 5px;
+    background-color: none;
+    box-shadow:0px 0px 0px #000000, 0px 3px 4px -1px #6bfff6;
 }
 #qoute{
   color:white;
@@ -82,6 +83,9 @@ nav ul li a{
   }
  
   @media only screen and (max-width: 830px) {
+    *{
+        font-size: 14px;
+    }
     body {
         margin: 0px;
     }
@@ -98,6 +102,7 @@ nav ul li a{
         top: 0px;
         right: 0px;
         border-radius: 10px;
+        z-index: 1;
     }
 
     nav ul {
@@ -116,21 +121,58 @@ nav ul li a{
     }
 
     #qoute {
-        font-size: 1.2em;
+        font-size: .9em;
     }
 
     .toggle {
         display: none;
     }
+    section img {
+        max-height: 420px;
+    }
+    #form_p{
+        text-align: left;
+        font-size: 1.1em;
+    }
+    p{
+      color: white; 
+      font-size: .9em;
+    }
 }
 
 @media only screen and (max-width: 715px) {
+    html{
+        font-size: 12px;
+    }
     nav ul li a {
         font-size: 2.0vw;
         font-weight: 700;
     }
-
-    #selectedwork {
-        font-weight: 400;
+    section img {
+        max-height: 320px;
     }
+    #storycont{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #storycont #para{
+        width: 95%;
+    }
+    footer p{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 415px){
+    html{
+
+        font-size: 10px;
+    }
+    section img {
+        max-height: 220px;
+    }
+    #form_p{
+      font-size: 1em;
+    }
+    
 }

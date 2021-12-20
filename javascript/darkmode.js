@@ -30,5 +30,6 @@ function toggler() {
   butn.addEventListener("click", () => {
     nav.classList.toggle("toggle");
   });
+
 }
 toggler();
