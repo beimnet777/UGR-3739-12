@@ -517,13 +517,14 @@ section img {
         top: 0px;
         right: 0px;
         border-radius: 10px;
+        z-index: 1;
     }
 
     nav ul {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 0px;
+        margin-left: -40px;
     }
 
     nav ul li {
@@ -535,7 +536,7 @@ section img {
     }
 
     #qoute {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .toggle {
@@ -543,6 +544,10 @@ section img {
     }
     section img {
         max-height: 420px;
+    }
+    #form_p{
+        text-align: left;
+        font-size: 1.1em;
     }
 }
 
@@ -553,10 +558,6 @@ section img {
     nav ul li a {
         font-size: 2.0vw;
         font-weight: 700;
-    }
-
-    #selectedwork {
-        font-weight: 400;
     }
     section img {
         max-height: 320px;
