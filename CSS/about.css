@@ -229,6 +229,9 @@ footer ul li img {
     min-height: 20px;
     min-width:20px;
 }
+footer ul li a:hover{
+    opacity: 0.4;
+}
 
 
 
