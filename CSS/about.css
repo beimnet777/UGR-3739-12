@@ -139,6 +139,26 @@ p {
     top: 0px;
     transform: rotateY(90deg);
 }
+table{
+    margin: auto;
+    margin-top: 50px;
+    width: 55%;
+    border-radius: 5px;
+    
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0px 0px 3px 2px gray;
+  }
+  th{
+      height: 40px;
+  }
+  tr:hover{
+      background-color: rgb(13, 80, 52);
+      color:white
+  }
 
 #a11 {
     animation: flip-back 1.5s;
