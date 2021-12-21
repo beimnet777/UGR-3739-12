@@ -57,3 +57,9 @@ fieldset{
     }
     
 }
+@media only screen and (max-width: 415px){
+    #form_p{
+      font-size: 1em;
+    }
+    
+}

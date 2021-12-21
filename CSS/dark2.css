@@ -161,6 +161,9 @@ nav ul li a{
     footer p{
         display: none;
     }
+    label{
+      font-size:0.9em;
+    }
     
 }
 @media only screen and (max-width: 415px){

@@ -4,6 +4,9 @@ body{
     color: white;
     font-size: large;
     text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+  
 }
 header{
     display: flex;

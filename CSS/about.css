@@ -12,6 +12,8 @@ header {
 body {
     /*background-color: 658A95;*/
     background: linear-gradient(242.82deg, #FFFFFF 1.04%, #E1E1E1 22.05%);
+    display: grid;
+    grid-template-rows: auto auto auto;
 }
 
 #header {
