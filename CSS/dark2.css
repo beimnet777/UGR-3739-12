@@ -8,7 +8,7 @@ body{
 footer{
   background: linear-gradient(270.09deg, rgba(255, 255, 255, 0.54) -0.52%, rgba(186, 224, 246, 0.342721) -0.51%, rgba(65, 171, 231, 0) 101.04%);;
 }
-footer ul li a{
+footer ul li a p{
   color: white;
 }
 nav ul li a:hover{

@@ -242,6 +242,9 @@ footer ul li a {
     color: black;
 
 }
+footer ul li a p{
+    color: black;
+}
 
 footer ul li img {
     width: 2.5vw;
