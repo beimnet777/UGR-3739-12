@@ -597,8 +597,11 @@ section img {
     #storycont #para{
         width: 95%;
     }
-    footer p{
+    footer #footerdiv ul li a p{
         display: none;
+    }
+    footer ul li img{
+        max-height: 35px;
     }
 }
 @media only screen and (max-width: 415px){
